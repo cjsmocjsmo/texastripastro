@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+}
+
+.header {
+	color: white;
+	text-align: center;
+}
+
+img.day1zoom {
+	border-radius: 15px;
+	width: 900px;
+}
+
+.arrows {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.idxpic {
+	border-radius: 12px;
+	margin: 7px;
+
+}
+
+.img-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+	img.day1zoom {
+		width: 100%;
+	}
+	img {
+		width: 120px;
+	}
+}	
+
+@media screen and (max-width: 360px) {
+	img {
+		width: 100px;
+	}
+}
